@@ -61,5 +61,57 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 .button:active {
   position: relative;
   top: 10px;
+}
 
+/* navbar rules*/
+
+main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#main-nav {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  height: 60px;
+
+  background: rgb(99, 171, 226);
+}
+
+#main-nav ul {
+  list-style-type: none;
+}
+
+#main-nav ul li {
+  float: left;
+}
+
+#main-nav ul li a {
+  display: block;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 10px 0 30px 0;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+
+  transition: all 0.75s ease;
+}
+
+#main-nav ul li a:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: #333;
+}
+
+.hidden {
+  display: none;
 }
