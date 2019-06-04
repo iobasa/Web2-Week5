@@ -1,7 +1,4 @@
 (() => {
-    //this is a self-invoking function
-
-    /* python print -> console.log is the same thing */
+    //stub
     console.log('my JS is workin!');
-
 })();
